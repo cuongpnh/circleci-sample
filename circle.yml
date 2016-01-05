@@ -1,0 +1,14 @@
+machine:
+  ruby:
+    version: 2.2.3
+  environment:
+    SECRET_KEY_BASE: deaef446aeaecbf5d6eb666b930412c3336baea9b6a5c541dbb5e7cc768171cb457e49c17054170b9770f2ac853afbe5d34342bd7127d7559fa989f7b9e3241e
+deployment:
+  # staging:
+  #   branch: master
+  #   heroku:
+  #     appname: circleci-sample
+  production:
+    branch: master
+    heroku:
+      appname: circleci-sample
